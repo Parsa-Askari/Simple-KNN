@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from tqdm.auto import tqdm
-class KNN:
+class KNN: #
     def __init__(self,X,Y):
         if(type(X)!=pd.core.frame.DataFrame):
             self.Features=pd.DataFrame(X).copy()
